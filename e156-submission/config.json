@@ -1,0 +1,57 @@
+{
+  "title": "CT.gov Trial-Architecture Gap",
+  "slug": "ctgov-trial-architecture-gap",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "path": "C:\\Projects\\ctgov-trial-architecture-gap",
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate across arm-group buckets among eligible older CT.gov studies",
+  "summary": "A standalone E156 project on how arm count and intervention count map onto older-study hiddenness in CT.gov.",
+  "body": "How much does trial architecture shape ClinicalTrials.gov hiddenness once older closed interventional studies are grouped by arms and intervention counts? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and grouped them by arm-group and intervention counts. The project compares two-year no-results rates, ghost-protocol rates, hiddenness scores, and phase-specific contrasts across simple and complex trial architectures. One-arm studies showed a 72.8 percent no-results rate, a 48.5 percent ghost-protocol rate, and a hiddenness score of 3.44. Studies with 10 or more arms fell to 55.3 percent no results, while one-intervention studies remained quieter than trials with larger intervention counts. Simpler-looking architectures are therefore not more transparent and often sit inside much quieter registry segments. That pattern holds in both early-phase work and later confirmatory programs with broader designs in practice today. Arm and intervention counts are registry structure fields and do not capture protocol nuance, adaptive features, or downstream analytic complexity.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How much does trial architecture shape ClinicalTrials.gov hiddenness once older closed interventional studies are grouped by arms and intervention counts?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and grouped them by arm-group and intervention counts."
+    },
+    {
+      "role": "Method",
+      "text": "The project compares two-year no-results rates, ghost-protocol rates, hiddenness scores, and phase-specific contrasts across simple and complex trial architectures."
+    },
+    {
+      "role": "Primary result",
+      "text": "One-arm studies showed a 72.8 percent no-results rate, a 48.5 percent ghost-protocol rate, and a hiddenness score of 3.44."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Studies with 10 or more arms fell to 55.3 percent no results, while one-intervention studies remained quieter than trials with larger intervention counts."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Simpler-looking architectures are therefore not more transparent and often sit inside much quieter registry segments. That pattern holds in both early-phase work and later confirmatory programs with broader designs in practice today."
+    },
+    {
+      "role": "Boundary",
+      "text": "Arm and intervention counts are registry structure fields and do not capture protocol nuance, adaptive features, or downstream analytic complexity."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Trial-Architecture Gap dashboard",
+    "data": "249,507 eligible older closed interventional studies grouped by arm-group and intervention-count architecture",
+    "code": "https://github.com/mahmood726-cyber/ctgov-trial-architecture-gap",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "author@example.com",
+  "references": [
+    "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
+    "Zarin DA, Tse T, Williams RJ, Carr S. Trial reporting in ClinicalTrials.gov. N Engl J Med. 2016;375(20):1998-2004.",
+    "DeVito NJ, Bacon S, Goldacre B. Compliance with legal requirement to report clinical trial results on ClinicalTrials.gov: a cohort study. Lancet. 2020;395(10221):361-369."
+  ]
+}
