@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Trial-Architecture Gap",
+  "slug": "ctgov-trial-architecture-gap",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "How much does trial architecture shape ClinicalTrials.gov hiddenness once older closed interventional studies are grouped by arms and intervention counts? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and grouped them by arm-group and intervention counts. The project compares two-year no-results rates, ghost-protocol rates, hiddenness scores, and phase-specific contrasts across simple and complex trial architectures. One-arm studies showed a 72.8 percent no-results rate, a 48.5 percent ghost-protocol rate, and a hiddenness score of 3.44. Studies with 10 or more arms fell to 55.3 percent no results, while one-intervention studies remained quieter than trials with larger intervention counts. Simpler-looking architectures are therefore not more transparent and often sit inside much quieter registry segments. That pattern holds in both early-phase work and later confirmatory programs with broader designs in practice today. Arm and intervention counts are registry structure fields and do not capture protocol nuance, adaptive features, or downstream analytic complexity.",
+  "word_count": 156,
+  "sentence_count": 8,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How much does trial architecture shape ClinicalTrials.gov hiddenness once older closed interventional studies are grouped by arms and intervention counts?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and grouped them by arm-group and intervention counts."
+    },
+    {
+      "role": "Method",
+      "text": "The project compares two-year no-results rates, ghost-protocol rates, hiddenness scores, and phase-specific contrasts across simple and complex trial architectures."
+    },
+    {
+      "role": "Primary result",
+      "text": "One-arm studies showed a 72.8 percent no-results rate, a 48.5 percent ghost-protocol rate, and a hiddenness score of 3.44."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Studies with 10 or more arms fell to 55.3 percent no results, while one-intervention studies remained quieter than trials with larger intervention counts."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Simpler-looking architectures are therefore not more transparent and often sit inside much quieter registry segments. That pattern holds in both early-phase work and later confirmatory programs with broader designs in practice today."
+    },
+    {
+      "role": "Boundary",
+      "text": "Arm and intervention counts are registry structure fields and do not capture protocol nuance, adaptive features, or downstream analytic complexity."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Trial-Architecture Gap dashboard",
+    "data": "249,507 eligible older closed interventional studies grouped by arm-group and intervention-count architecture",
+    "code": "https://github.com/mahmood726-cyber/ctgov-trial-architecture-gap",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate across arm-group buckets among eligible older CT.gov studies",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": false,
+        "detail": "Found 8 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
